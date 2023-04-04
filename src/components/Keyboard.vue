@@ -3,7 +3,7 @@
 
     <button 
       class="keyboard-button" 
-      v-for="(letter, key) in 'abcdefghijklmnopqrstuvwxyz'"
+      v-for="(letter, key) in 'aáàâãbcçdeéèêfghiíjklmnoóôõpqrstuúvwxyz'"
       :key="key"
       :disabled="verificarLetra(letter)"
       @click="jogar(letter)"

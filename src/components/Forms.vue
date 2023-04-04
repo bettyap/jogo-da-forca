@@ -3,7 +3,7 @@
     <div class="forms-title">
       <p>{{title}}</p>
     </div>
-    <input class="forms-input" v-maska data-maska="A" data-maska-tokens="A:[A-Za-z]:multiple"  v-model="inputValue"/>
+    <input class="forms-input" v-maska data-maska="A" data-maska-tokens="A:[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]:multiple"  v-model="inputValue"/>
 
     <button 
       :disabled="inputValue.length === 0"
