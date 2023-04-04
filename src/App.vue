@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1> Jogo da forca</h1>
+    <h1> Jogo da Forca</h1>
     <section v-if="screen === 'inicio'">
 
       <Forms v-if="stage === 'palavra'"
@@ -110,5 +110,6 @@ import Game from './components/Game.vue'
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 </style>

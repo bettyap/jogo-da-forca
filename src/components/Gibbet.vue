@@ -28,6 +28,6 @@ export default {
     margin-top: 1.25rem;
   }
   .gibbet-container img {
-    height: 6.25rem;
+    height: 8.25rem;
   }
 </style>

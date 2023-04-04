@@ -37,10 +37,10 @@ export default {
     font-weight: bold;
   }
   .finale-text.ganhador {
-    color: greenyellow;
+    color: var(--green-500);
   }
   .finale-text.enforcado {
-    color: red;
+    color: var(--red);
   }
   .keyboard-container{
     width: auto;
@@ -57,5 +57,4 @@ export default {
     border-radius: 0.5rem;
     text-transform: uppercase;
   }
-  
 </style>

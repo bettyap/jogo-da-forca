@@ -46,10 +46,10 @@ export default {
     width: 1.875rem;
     height: 1.875rem;
     margin: 0 0.3125rem;
-    border-bottom: 1px solid blue;
+    border-bottom: 2px solid var(--green-300);
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
 </style>
